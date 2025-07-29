@@ -212,7 +212,8 @@ min-width: 169px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize
+        text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
 .team-background {
@@ -224,6 +225,15 @@ min-width: 169px;
     display: flex;
         align-items: center;
     gap: 24px;
+}
+
+.container-box {
+    border-radius: 0 0 4px 4px;
+    padding: 32px 0;
+    width: 264px;
+    height: 380px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
 }
 
 .team-name {
@@ -245,14 +255,7 @@ min-width: 169px;
         color: #434455;
 }
 
-.container-box {
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-            background: #fff;
-}
+
 
 .container-app-one {
         display: flex;
